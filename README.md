@@ -1,6 +1,9 @@
 # OpenCV
 1、人机互动 2、物体识别 3、图像分割 4、人脸识别 5、动作识别 6、运动跟踪 7、机器人 8、运动分析 9、机器视觉 10、结构分析 11、汽车安全驾驶
 
+官网： [opencv](https://github.com/opencv)/**[opencv](https://github.com/opencv/opencv)**
+
+
 ### Installation
 两种方法呢
 * 直接pip命令安装-直接命令法  `pip install opencv-python`
