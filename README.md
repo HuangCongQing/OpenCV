@@ -3,11 +3,10 @@
 
 ### Installation
 两种方法呢
-* 直接pip命令安装`直接命令法  pip install opencv-python`
+* 直接pip命令安装-直接命令法  `pip install opencv-python`
 * 下载whl文件法
-先去官网https://www.lfd.uci.edu/~gohlke/pythonlibs/#opencv，下载相应Python版本的OpenCV的whl文件，如本人下载的opencv_python‑3.4.1‑cp36‑cp36m‑win_amd64.whl，然后在whl文件所在目录下，
-
-命令`pip install opencv_python‑3.4.1‑cp36‑cp36m‑win_amd64.whl` 进行安装即可
+    1. 先去官网 https://www.lfd.uci.edu/~gohlke/pythonlibs/#opencv，下载相应Python版本的OpenCV的whl文件，如本人下载的opencv_python‑3.4.1‑cp36‑cp36m‑win_amd64.whl，
+    2. 然后在whl文件所在目录下，命令`pip install opencv_python‑3.4.1‑cp36‑cp36m‑win_amd64.whl` 进行安装即可
 
 ### Usage & Quick start
 
