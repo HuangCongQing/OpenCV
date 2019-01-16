@@ -3,6 +3,8 @@
 
 官网： [opencv](https://github.com/opencv)/**[opencv](https://github.com/opencv/opencv)**
 
+**OpenCV在Python中导入名称是cv2**
+
 
 ### Installation
 两种方法呢
