@@ -3,6 +3,9 @@
 
 官网： [opencv](https://github.com/opencv)/**[opencv](https://github.com/opencv/opencv)**
 
+dev：python35，opencv_python‑3.4，VScode
+
+
 **OpenCV在Python中导入名称是cv2**
 
 
