@@ -22,16 +22,10 @@
 
 ## Usage & Quick start
 
-
-### （全）基于python的Opencv项目实战
+### 基于python的Opencv项目实战
 
 * 视频：https://www.bilibili.com/video/BV1oJ411D71z
 * 代码&笔记：[基于python的Opencv项目实战](基于python的Opencv项目实战)
-
-
-
-
-
 
 ## License
 
