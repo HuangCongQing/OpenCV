@@ -27,6 +27,23 @@
 * 视频：https://www.bilibili.com/video/BV1oJ411D71z
 * 代码&笔记：[基于python的Opencv项目实战](基于python的Opencv项目实战)
 
+  * [图像操作(图像读取  色彩空间转换 展示图像信息 读取视频  边界填充 数值计算 图像融合 )](基于python的Opencv项目实战/图像操作/图像基本操作.ipynb)
+  * 图像处理
+    * [图像阈值 图像平滑 形态学 图像梯度 边缘检测 图像金字塔 轮廓检测 傅里叶变换](基于python的Opencv项目实战/图像操作/图像处理.ipynb)
+    * [直方图&模板匹配](基于python的Opencv项目实战/图像处理/图像处理-2(直方图&模板匹配).ipynb)
+
+  ## 展示图像信息(shape  size )
+
+  ### **色彩空间转换函数**
+
+  ### **色彩空间转换**
+
+  ### **色彩空间转换**
+
+  ### **色彩空间转换**
+
+  ### **色彩空间转换**
+
 ## License
 
 Copyright (c) [双愚](https://github.com/HuangCongQing/OpenCV). All rights reserved.
