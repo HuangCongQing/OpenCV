@@ -20,14 +20,12 @@
   1. 先去官网 https://www.lfd.uci.edu/~gohlke/pythonlibs/#opencv，下载相应Python版本的OpenCV的whl文件，如本人下载的opencv_python‑3.4.1‑cp36‑cp36m‑win_amd64.whl，
   2. 然后在whl文件所在目录下，命令`pip install opencv_python‑3.4.1‑cp36‑cp36m‑win_amd64.whl` 进行安装即可
 
-## Usage & Quick start
-
-### 基于python的Opencv项目实战
+## 基于python的Opencv项目实战
 
 * 视频：https://www.bilibili.com/video/BV1oJ411D71z
 * 代码&笔记：[基于python的Opencv项目实战](基于python的Opencv项目实战)
 
-  * [图像操作(图像读取  色彩空间转换 展示图像信息 读取视频  边界填充 数值计算 图像融合 )](基于python的Opencv项目实战/图像操作/图像基本操作.ipynb)
+  * [图像基础操作(图像读取  色彩空间转换 展示图像信息 读取视频  边界填充 数值计算 图像融合 )](基于python的Opencv项目实战/图像操作/图像基本操作.ipynb)
   * 图像处理
     * [图像阈值 图像平滑 形态学 图像梯度 边缘检测 图像金字塔 轮廓检测 傅里叶变换](基于python的Opencv项目实战/图像操作/图像处理.ipynb)
     * [直方图&模板匹配](基于python的Opencv项目实战/图像处理/图像处理-2(直方图&模板匹配).ipynb)
