@@ -33,18 +33,6 @@
     * [直方图&模板匹配](基于python的Opencv项目实战/图像处理/图像处理-2(直方图&模板匹配).ipynb)
   * 实战
 
-  ## 展示图像信息(shape  size )
-
-  ### **色彩空间转换函数**
-
-  ### **色彩空间转换**
-
-  ### **色彩空间转换**
-
-  ### **色彩空间转换**
-
-  ### **色彩空间转换**
-
 ## License
 
 Copyright (c) [双愚](https://github.com/HuangCongQing/OpenCV). All rights reserved.
