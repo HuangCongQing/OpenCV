@@ -13,14 +13,14 @@
 两种方法呢
 
 * 直接pip命令安装-直接命令法
+
   ```
   pip3 install opencv-python 
   pip3 install opencv-contrib-python
   pip3 install pytesseract
   ```
-
-
 * 下载whl文件法
+
   1. 先去官网 https://www.lfd.uci.edu/~gohlke/pythonlibs/#opencv，下载相应Python版本的OpenCV的whl文件，如本人下载的opencv_python‑3.4.1‑cp36‑cp36m‑win_amd64.whl，
   2. 然后在whl文件所在目录下，命令`pip install opencv_python‑3.4.1‑cp36‑cp36m‑win_amd64.whl` 进行安装即可
 
@@ -34,7 +34,9 @@
     * [图像阈值 图像平滑 形态学 图像梯度 边缘检测 图像金字塔 轮廓检测 傅里叶变换](基于python的Opencv项目实战/图像操作/图像处理.ipynb)
     * [直方图&模板匹配](基于python的Opencv项目实战/图像处理/图像处理-2(直方图&模板匹配).ipynb)
   * [01项目实战-信用卡数字识别/template-matching-ocr](01项目实战-信用卡数字识别/template-matching-ocr)
+    * 运行命令：`python 01项目实战-信用卡数字识别/template-matching-ocr/ocr_template_match.py   -i   01项目实战-信用卡数字识别/template-matching-ocr/images/credit_card_01.png    -t    01项目实战-信用卡数字识别/template-matching-ocr/images/ocr_a_reference.png`
   * [02项目实战-文档扫描OCR识别](02项目实战-文档扫描OCR识别)
+  *
 
 ## License
 

@@ -1,11 +1,12 @@
 '''
 Description: OCR-模板匹配  参考：https://www.bilibili.com/video/BV1oJ411D71z?t=11&p=9
 运行命令：  python ocr_template_match.py   -i   xxx    -t    xxx
+运行命令：  python 01项目实战-信用卡数字识别/template-matching-ocr/ocr_template_match.py   -i   01项目实战-信用卡数字识别/template-matching-ocr/images/credit_card_01.png    -t    01项目实战-信用卡数字识别/template-matching-ocr/images/ocr_a_reference.png
 Author: HCQ
 Company(School): UCAS
 Email: 1756260160@qq.com
 Date: 2021-01-23 11:12:41
-LastEditTime: 2021-01-25 13:11:39
+LastEditTime: 2021-01-25 14:07:18
 FilePath: /OpenCV/01项目实战-信用卡数字识别/template-matching-ocr/ocr_template_match.py
 '''
 # 导入工具包
@@ -51,7 +52,7 @@ cv_show('ref',ref)
 #cv2.findContours()函数接受的参数为二值图，即黑白的（不是灰度图）,cv2.RETR_EXTERNAL只检测外轮廓，cv2.CHAIN_APPROX_SIMPLE只保留终点坐标
 #返回的list中每个元素都是图像中的一个轮廓
 
-# 高版本不会第一个参数ref_了，只会返回后两个
+# 高版本没有第一个参数ref_了，只会返回后两个
 # ref_, refCnts, hierarchy = cv2.findContours(ref.copy(), cv2.RETR_EXTERNAL,cv2.CHAIN_APPROX_SIMPLE) # 低版本
 refCnts, hierarchy = cv2.findContours(ref.copy(), cv2.RETR_EXTERNAL,cv2.CHAIN_APPROX_SIMPLE) # 高版本
 
@@ -114,7 +115,10 @@ cv_show('thresh',thresh)
 
 # 计算轮廓
 
-thresh_, threshCnts, hierarchy = cv2.findContours(thresh.copy(), cv2.RETR_EXTERNAL,
+# 高版本没有第一个参数thresh_了，只会返回后两个
+# thresh_, threshCnts, hierarchy = cv2.findContours(thresh.copy(), cv2.RETR_EXTERNAL,
+# 	cv2.CHAIN_APPROX_SIMPLE)
+threshCnts, hierarchy = cv2.findContours(thresh.copy(), cv2.RETR_EXTERNAL,
 	cv2.CHAIN_APPROX_SIMPLE)
 
 cnts = threshCnts # 最终轮廓
@@ -153,7 +157,10 @@ for (i, (gX, gY, gW, gH)) in enumerate(locs):
 		cv2.THRESH_BINARY | cv2.THRESH_OTSU)[1]
 	cv_show('group',group)
 	# 计算每一组的轮廓（4个数字，四个轮廓）
-	group_,digitCnts,hierarchy = cv2.findContours(group.copy(), cv2.RETR_EXTERNAL,
+	# 高版本没有第一个参数group_了，只会返回后两个
+	# group_,digitCnts,hierarchy = cv2.findContours(group.copy(), cv2.RETR_EXTERNAL,
+	# 	cv2.CHAIN_APPROX_SIMPLE)
+	digitCnts,hierarchy = cv2.findContours(group.copy(), cv2.RETR_EXTERNAL,
 		cv2.CHAIN_APPROX_SIMPLE)
 	digitCnts = contours.sort_contours(digitCnts,
 		method="left-to-right")[0]
