@@ -36,7 +36,7 @@
   * [01项目实战-信用卡数字识别/template-matching-ocr](01项目实战-信用卡数字识别/template-matching-ocr)
     * 运行命令：`python 01项目实战-信用卡数字识别/template-matching-ocr/ocr_template_match.py   -i   01项目实战-信用卡数字识别/template-matching-ocr/images/credit_card_01.png    -t    01项目实战-信用卡数字识别/template-matching-ocr/images/ocr_a_reference.png`
   * [02项目实战-文档扫描OCR识别](02项目实战-文档扫描OCR识别)
-  *
+  * TODO
 
 ## License
 
